@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 4000;
 
 // Middlewares
 app.use(express.json());
-app.use(cors());
+
 
 app.use(cors({
   origin: ['https://e-commerce-frontend-ywzc.onrender.com', 'https://e-commerce-frontend-ywzc.onrender.com/']  // Add both versions
