@@ -19,7 +19,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: ['https://e-commerce-frontend-ywzc.onrender.com', 'https://e-commerce-frontend-ywzc.onrender.com/']  // Add both versions
+  origin: ['https://e-commerce-frontend-ywzc.onrender.com', 'https://e-commerce-frontend-ywzc.onrender.com/','https://e-commerce-admin-2pmh.onrender.com', 'https://e-commerce-admin-2pmh.onrender.com/', ]  // Add both versions
 }));
 ;
 
