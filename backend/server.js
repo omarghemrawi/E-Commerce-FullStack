@@ -19,8 +19,9 @@ app.use(express.json());
 app.use(cors());
 
 app.use(cors({
-  origin: 'https://e-commerce-frontend-ywzc.onrender.com/'  // Your frontend URL
+  origin: ['https://e-commerce-frontend-ywzc.onrender.com', 'https://e-commerce-frontend-ywzc.onrender.com/']  // Add both versions
 }));
+;
 
 //Api EndPoint
 app.use("/api/user", userRouter);
