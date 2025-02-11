@@ -1,6 +1,6 @@
 import { assets } from "../assets/assets";
 import Title from "../components/Title";
-import NewsletterBox from "../components/NewsletterBox";
+import NewsLetterBox from "../components/NewsLetterBox";
 
 const Contact = () => {
   return (
@@ -34,7 +34,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <NewsletterBox />
+      <NewsLetterBox />
     </div>
   );
 };
