@@ -1,1 +1,1 @@
-export const backendUrl = import.meta.env.VITE_BACKEND_URL;
+export const backendUrl = "https://e-commerce-backend-42xz.onrender.com";
